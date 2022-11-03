@@ -1,0 +1,351 @@
+body
+{
+    margin: 0px;
+    background-image: url(Pictures/bg.gif);
+    background-position: center;
+    background-size: cover;
+}
+*
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.codes .css
+{
+    padding-top: 50px;
+    height: 300px;
+    width: 300px;
+}
+.codes .binary
+{
+    float: right;
+    padding-top: 30%;
+    height: 300px;
+    width: 300px;
+}
+.intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(176, 176, 255);
+    
+}
+.intro p
+{
+    color: rgb(177, 255, 170);
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(248, 255, 107)
+}
+
+.intro h1{
+    color: rgb(170, 242, 255);
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(107, 220, 255)
+}
+
+.intro .img
+{
+    float: center;
+    height: 250px;
+    width: 250px;
+    background-color:#00d5ff;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 5px solid #81ddf4;
+    box-shadow: 0 0 20px rgba(160, 145, 255, 0.808);
+}
+.content 
+{
+    margin-top: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(176, 176, 255);
+}
+.content .edu
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#00ffd5;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border: 5px solid #0077ff;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .web
+{
+    float: right;
+    height: 140px;
+    width: 140px;
+    background-color:#00ffd5;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    border: 5px solid #0077ff;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .code
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#00ffd5;
+    border-radius: 50%;
+    margin-top: 550px;
+    margin-bottom: 20px;
+    margin-left: -170px;
+    border: 5px solid #0077ff;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+
+.content h1{
+    color: rgb(255, 186, 170);
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(46, 100, 117)
+}
+
+.works .p1
+{
+    text-align: left;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    color: rgb(200, 128, 255);
+    text-shadow: 2px 2px 5px rgb(71, 100, 110);
+    padding-left: 450px;
+    font-size: 30px;
+}
+.works .p2
+{
+    text-align: right;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: rgb(255, 200, 128);
+    text-shadow: 2px 2px 5px rgb(71, 100, 110);
+    padding-right: 430px;
+    font-size: 30px;
+}
+.works .p3
+{
+    text-align: left;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: rgb(195, 195, 195);
+    text-shadow: 2px 2px 5px rgb(71, 100, 110);
+    padding-left: 450px;
+    font-size: 30px;
+}
+
+.icons .portfolio
+{
+    padding-top: 50px;
+    float: right;
+    margin-right:50px;
+    margin-left:0px;
+    width: 240px;
+    height: 250px;
+}
+.icons .c
+{ 
+  padding-top: 25%;
+  padding-right: 130px;
+  float: left;
+  margin-left:50px;
+  margin-right:0px;
+  width: 240px;
+  height: 250px;
+
+}
+.info
+{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: rgb(255, 176, 176);
+    font-size: 30px;
+}
+.info p
+{
+    color: rgb(252, 228, 122);
+}
+ 
+.link button{
+    background:linear-gradient(to bottom, #9ae2ff 5%, #8280ea 100%);
+    border: 5px;
+    border-radius: 25%;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    font-family:  Cochin;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.link  button:hover{
+    background-color: #81ddf4;
+    color: black;
+}
+
+.wall h1
+{
+    margin-left: 470px;
+    padding-top:150px;
+}
+.contact h1
+{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    color: rgb(176, 255, 255);
+    font-size: 50px;
+}
+.contact h2
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: rgb(28, 149, 180);
+    font-size: 30px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #bdfae8 5%, #80eaea 100%);
+	border-radius:28px;
+	border:1px solid #274b6d;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c2ffe5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 70px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #80bcea 5%, #6987ff 100%);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.foot
+{
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.24) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: rgb(176, 176, 255);
+    color: white;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.foot h1
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(14, 14, 255);
+}
+.foot ul
+{
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 48%;
+    transform: translate(-50%,  -50%);
+    display: flex;
+}
+.foot ul li
+{
+    list-style: none;
+    margin: 0 15px;
+}
+.foot ul li a .in
+{
+    background-color:#8ab5ff;
+    border-radius: 50%;
+    border: 5px solid #0051ff;
+    box-shadow: 0 0 20px rgba(185, 241, 255, 0.808);
+    height: 30px;
+    width: 30px;
+}
+.foot ul li a .email
+{
+    background-color:#8ab5ff;
+    border-radius: 50%;
+    border: 5px solid #0051ff;
+    box-shadow: 0 0 20px rgba(185, 241, 255, 0.808);
+    height: 30px;
+    width: 30px;
+}
+.foot ul li a .fb
+{
+    background-color:#8ab5ff;
+    border-radius: 50%;
+    border: 5px solid #0051ff;
+    box-shadow: 0 0 20px rgba(185, 241, 255, 0.808);
+    height: 30px;
+    width: 30px;
+}
+.works h1{
+    font-size: 100px;
+    text-align: center;
+    padding: auto;
+    color: white;
+    border: #0051ff;
+    border-radius: 25%;
+    background-color: #080766;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #080766;
+    padding: 2px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .grid-container img{
+    height: 350px;
+    width: 300px;
+  }
+
+  footer button{
+    background-color: #00ffd5;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+  }
